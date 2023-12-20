@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simon's Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/944a6da2bf.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/Logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intro Section -->
+        <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Simon Golaz</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">FRONT-END DEV</p>
+        <img src="img/simon.jpg" alt="a picture of Simon Golaz in a suit and hat" class="intro__img">
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h1 class="section__title section__title--services">What I do</h1>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>Over the last few years I have studied and worked with HMTL, CSS, Javascript and web design, developping skills and knwoledge allowing me to easily navigate my way through both designing webpages, and troubleshooting front-end code, as well as using APIs for a range of tasks.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>I have a deep knowldge of different E-Commerces platofrms including (but not limited to) Shopify, Big Commerce, WooCommerce, Wix, Magento 1&2 and many more on how they work and how to integrate them with different platforms.</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Klaviyo</h3>
+                    <p>Working at Klaviyo as a Snr Product Expert I have an extended knowledge of the ins and outs of the plaform allowing me navigate it, use and explains it different features with ease.</p>
+                </div> <!-- / service -->
+
+            </div> <!-- / services -->
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h1 class="section__title section__title--about">Who I am</h1>
+            <p class="section__subtitle section__subtitle--about">Email marketing specialist/Designer & Developer based in London</p>
+
+            <div class="about-me__body">
+                <p>Being of a an artistic and creative nature, I started my carreer very far from the world of coding, working as a pastry-chef for many years. Being passionate about music I also studied sound engineering. It is my passion for music that somehow took me to the carrer path I am in today.</p>
+                <p>PLaying music in a band I took on lots of experience dabling into the e-mail marketing side, where I found new interests, this pushed me to change career and pursue a career in tech where I found a new passion for coding and developped the new skills set I have today.</p>
+            </div>
+
+            <img src="img/Simon_Mural copy.jpg" alt="a picture of Simon Golaz in front of mural painting of himself" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h1 class="section__title section__title--work">My Work</h1>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <div class="portfolio__item">
+                    <!-- Portfolio item 01 -->
+                    <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/Web Design.avif" alt="" class="portfolio__img">
+                    </a>
+                    <h2>WEB DESIGN</h2>
+                </div>
+
+                <div class="portfolio__item">
+                    <!-- Portfolio item 02 -->
+                    <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/Graphic Design.avif" alt="" class="portfolio__img">
+                    </a>
+                    <h2>GRAPHIC DESIGN</h2>
+                </div>
+
+                <div class="portfolio__item">
+                    <!-- Portfolio item 03 -->
+                    <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/Email Marketing.avif" alt="" class="portfolio__img">
+                    </a>
+                    <h2>EMAIL MARKETING</h2>
+                </div>
+
+                <div class="portfolio__item">
+                    <!-- Portfolio item 04 -->
+                    <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/Deliverability.jpg" alt="" class="portfolio__img">
+                    </a>
+                    <h2>EMAIL DELIVERABILITY</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-work_2" id="work">
+            <div class="portfolio_2">
+                <!-- Portfolio item 05 -->
+                <h2>LANGUAGES</h2>
+                <a href="portfolio-item.html" class="portfolio__item_2">
+                    <img src="img/Languages.png" alt="" class="portfolio__img_code">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:simongolaz@gmail.com" class="footer__link">simongolaz@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/simon.thelion.5">
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                    </a>
+                </li>
+                <br>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/thelionsimon/">
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
+
+
